@@ -1,0 +1,208 @@
+<html>
+  <head>
+    <title> Weelee Warriors </title>
+  </head>
+  <body>
+    <div id="splash-image">
+      <picture>
+        <source srcset="images/weelee_title_large.png" media="(min-width: 836px)"/>
+        <img src="images/weelee_title.png" alt="Weelee Warriors logo"/>
+      </picture>
+    </div>
+    <main>
+      <div class="border-outer">
+        <div class="border-inner">
+          <div class="content">
+            <h1> Weelee Warriors </h1>
+            <ul class="content-text">
+              <li>
+                Up to 8 players battle it out in frantic combat!
+              </li>
+              <li>
+                Kill your friends in hilarious ways using swords, spears, bombs, potions, and more!
+              </li>
+              <li>
+                Create your own levels with a multiplayer level editor!
+              </li>
+            </ul>
+            <iframe
+              class="video-player"
+              src="https://www.youtube-nocookie.com/embed/11111111111"
+              frameborder="0"
+              allow="accelerometer;
+              autoplay;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture"
+              allowfullscreen>
+            </iframe>
+
+            <h2> Follow us </h2>
+            <p class="content-text">
+              Weelee Warriors is currently in development. For the latest updates, please follow us on social media.
+            </p>
+            <a href="https://www.instagram.com/weeleewarriors/?igshid=1xjp013i5cfdh">Instagram</a>
+            &nbsp;|&nbsp;
+            <a href="https://twitter.com/weeleewarriors">Twitter</a>
+            &nbsp;|&nbsp;
+            <a href="https://www.facebook.com/Weelee-Warriors-100293298040564">Facebook</a>
+
+            <h2> Contact us </h2>
+            <p class="content-text">
+              We can be reached directly at <a href="mailto:weeleewarriors@gmail.com"> weeleewarriors@gmail.com</a>, but we also have a <a href="http://eepurl.com/gDYvxv">mailing list</a>!
+            </p>
+            <footer>
+              © 2019
+            </footer>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <style>
+    @font-face {
+      font-family: wheel-header;
+      src: url(fonts/Wheel_header_font_v2_low-Regular.ttf);
+    }
+
+    body {
+      margin: 0;
+      background-color: #401640;
+      color: #41253D;
+      font-family: sans-serif;
+      font-size: 20px;
+    }
+
+    main {
+      max-width: 1222px;
+      margin: auto;
+      text-align: center;
+      background-color: #E3CAA5;
+    }
+
+    footer {
+      padding-top: 30px;
+      padding-bottom: 10px; 
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: wheel-header;
+      text-transform: uppercase;
+      text-shadow: 2px 2px #A68885;
+    }
+
+    h1 {
+      font-size: 44px;
+    }
+
+    h2 {
+      font-size: 36px;
+    }
+
+    ul {
+      text-align: left;
+    }
+
+    .border-outer {
+      border: 6px solid #41253d;
+      padding: 40px;
+    }
+
+    .border-inner {
+      border: 6px solid #41253d;
+    }
+
+    .content {
+      border-top: 6px solid #A68885;
+      border-left: 6px solid #A68885;
+    }
+
+    .content-text {
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 30px;
+      text-align: left;
+    }
+
+    #splash-image {
+      height: 465px;
+      background-image: url('images/weelee_background.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position-x: center;
+      background-size: 100% auto;
+      position: relative;
+    }
+
+
+    #splash-image img {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+
+    .video-player {
+      max-width: calc(100% - 2px);
+      width: 800px;
+      height: 450px;
+      background-color: #6f6050;
+      border: 1px solid #A68885;
+    }
+
+    @media only screen and (max-width: 835px) {
+      body {
+        font-size: 18px;
+      }
+
+      main {
+      }
+
+
+      h1 {
+        font-size: 36px;
+      }
+
+      h2 {
+        font-size: 26px;
+      }
+
+      .border-outer {
+        padding: 6px;
+      }
+
+      .border-inner {
+      }
+
+      .content {
+      }
+
+      .content-text {
+        max-width: 450px;
+      }
+
+
+      #splash-image {
+        height: 200px;
+        background-size: contain;
+      }
+
+
+      #splash-image img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+
+      .video-player {
+        min-height: 300px;
+      }
+    }
+  </style>
+</html>
